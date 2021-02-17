@@ -134,7 +134,7 @@
 	}
 
 	function sub(){
-// 		eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
+		eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
 	}
 
 	/* 演習1 ここまで */
