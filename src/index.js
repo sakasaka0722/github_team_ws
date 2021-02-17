@@ -71,7 +71,7 @@
 			var num = parseFloat(eqlNum.value);
 			allClear();
 			pushNumber(num);
-			midNumKey = 1;		
+			midNumKey = 1;
 		}
 
 		cont = new_cont;
@@ -124,7 +124,7 @@
 		eqlFlag = true;
 
 	}
-	
+
 	/* 演習の編集範囲 はじめ */
 
 	/* 演習1 ここから */
@@ -136,6 +136,14 @@
 	function sub(){
 		eqlNum.value = parseFloat(midNum[0].value) - parseFloat(midNum[1].value);
 	}
+
+	function div（）{
+	if（parseFloat（midNum [1] .value）== 0）{
+		eqlNum.value = "ERROR";
+	}else{
+		eqlNum.value = parseFloat（midNum [0] .value）/ parseFloat（midNum [1] .value）;
+	}
+}
 
 	/* 演習1 ここまで */
 
