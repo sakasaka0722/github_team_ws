@@ -1,0 +1,37 @@
+input {
+	height: 30px;
+	font-size: 100%;
+}
+
+table {
+	width: 60%;
+	height: auto;
+	font-size: 28px; 
+	margin: 10px auto;
+}
+
+td {
+	width: 25%;
+	border: 5px #a2a3a0 outset;
+	background-color: #dfe0dc;
+}
+
+th {
+	width: 25%;
+	border: 5px #808da8 outset;
+	background-color: #b7c8e8;
+}
+
+.main {
+	width: 100;
+	height: auto;
+	text-align: center;		
+}
+
+#clr{
+	width: 25%;
+	border: 5px #eb6565 outset;
+	background-color: #ed91ac;
+	color: #292626;
+}
+

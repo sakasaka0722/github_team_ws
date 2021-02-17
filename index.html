@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html land="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>電卓アプリ</title>
+		<link rel="stylesheet" href="./src/styles.css" type="text/css">
+		<script type="text/javascript" src="./src/index.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Javascriptで電卓をつくろう</h1>
+		</div>
+		<div class="main">
+			<div class="struck">
+
+				<input type="text" id="mid1num" value="0" readonly>
+				<spqn id="ope"> </spqn>
+				<input type="text" id="mid2num" value="" readonly>
+				<span>=</span>
+				<input type="text" id="eqlnum" value="" readonly>
+
+				<table>
+					<tr>
+						<td id="clr">AC</td>
+					</tr>
+					<tr>			
+						<td class="button" data-number="7">7</td>
+						<td class="button" data-number="8">8</td>
+						<td class="button" data-number="9">9</td>
+						<th class="symbol" data-number="add">+</th>
+					</tr>
+					<tr>			
+						<td class="button" data-number="4">4</td>
+						<td class="button" data-number="5">5</td>
+						<td class="button" data-number="6">6</td>
+						<th class="symbol" data-number="sub">-</th>
+					</tr>
+					<tr>			
+						<td class="button" data-number="1">1</td>
+						<td class="button" data-number="2">2</td>
+						<td class="button" data-number="3">3</td>
+						<th class="symbol" data-number="mul">×</th>
+					</tr>
+					<tr>			
+						<td class="button" data-number=".">.</td>
+						<td class="button" data-number="0">0</td>
+						<th id="eqlbtn" data-number="eql">=</th>
+						<th class="symbol" data-number="div">÷</th>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
